@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.ios.deployment_target = '14.0'
   spec.dependency 'Flutter'
-  spec.dependency 'GoogleMaps'
 
 
   spec.ios.vendored_frameworks = [
