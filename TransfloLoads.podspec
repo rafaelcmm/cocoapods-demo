@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'TransfloLoadsModule'
-  spec.version       = '1.0.5'
+  spec.version       = '1.0.6'
   spec.summary       = 'Summary'
   spec.description   = 'Description'
   spec.homepage      = 'https://greensyntax.app'
@@ -10,10 +10,10 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.ios.deployment_target = '14.0'
   spec.dependency 'GoogleMaps', '8.4.0.0'
-  spec.dependency 'Flutter', '3.24.0'
   spec.ios.vendored_frameworks = [
     "App.xcframework",
     "device_info_plus.xcframework",
+    "Flutter.xcframework",
     "FlutterPluginRegistrant.xcframework",
     "google_maps_flutter_ios.xcframework",
     "GoogleMapsUtils.xcframework",
