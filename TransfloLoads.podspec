@@ -11,12 +11,12 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '14.0'
 
   spec.ios.vendored_frameworks = [
-    "Frameworks/App.xcframework",
-    "Frameworks/device_info_plus.xcframework",
-    "Frameworks/FlutterPluginRegistrant.xcframework",
-    "Frameworks/google_maps_flutter_ios.xcframework",
-    "Frameworks/GoogleMapsUtils.xcframework",
-    "Frameworks/transflo_authentication_plugin.xcframework",
-    "Frameworks/vibration.xcframework",
+    "App.xcframework",
+    "device_info_plus.xcframework",
+    "FlutterPluginRegistrant.xcframework",
+    "google_maps_flutter_ios.xcframework",
+    "GoogleMapsUtils.xcframework",
+    "transflo_authentication_plugin.xcframework",
+    "vibration.xcframework",
   ]
 end
