@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name          = 'TransfloLoadsModule'
   spec.version       = '1.0.1'
-  spec.summary       = ''
-  spec.description   = ''
+  spec.summary       = 'Summary'
+  spec.description   = 'Description'
   spec.homepage      = 'https://greensyntax.app'
   spec.author        = { 'Rafael Monteiro' => 'rmonteiro@gmail.com' }
   spec.license       = { :type => 'MIT', :file => 'LICENSE' }
