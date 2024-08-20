@@ -99,6 +99,7 @@
             "usr": "c:@M@transflo_authentication_plugin@objc(cs)TransfloAuthenticationPlugin(im)handleMethodCall:result:",
             "mangledName": "$s30transflo_authentication_plugin28TransfloAuthenticationPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "transflo_authentication_plugin",
+            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -137,6 +138,7 @@
         "usr": "c:@M@transflo_authentication_plugin@objc(cs)TransfloAuthenticationPlugin",
         "mangledName": "$s30transflo_authentication_plugin28TransfloAuthenticationPluginC",
         "moduleName": "transflo_authentication_plugin",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
