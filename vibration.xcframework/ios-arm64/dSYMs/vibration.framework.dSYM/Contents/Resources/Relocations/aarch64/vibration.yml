@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/rafaelmonteirofsl/Workspace/UserWorkFlowMobile/apps/loads_module/build/ios/framework/Profile/iphoneos/Profile-iphoneos/vibration/vibration.framework/vibration'
+binary-path:     '/Users/rafaelmonteirofsl/Workspace/UserWorkFlowMobile/apps/loads_module/build/ios/framework/Release/iphoneos/Release-iphoneos/vibration/vibration.framework/vibration'
 relocations:
   - { offsetInCU: 0x34, offset: 0x64D9F, size: 0x8, addend: 0x0, symName: _vibrationVersionString, symObjAddr: 0x0, symBinAddr: 0x7E60, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x64DD4, size: 0x8, addend: 0x0, symName: _vibrationVersionNumber, symObjAddr: 0x28, symBinAddr: 0x7E88, symSize: 0x0 }
