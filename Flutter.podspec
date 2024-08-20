@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source                = { :http => 'https://storage.googleapis.com/flutter_infra_release/flutter/b8800d88be4866db1b15f8b954ab2573bba9960f/ios/artifacts.zip' }
+  s.source                = { :http => 'https://storage.googleapis.com/flutter_infra_release/flutter/b8800d88be4866db1b15f8b954ab2573bba9960f/ios-profile/artifacts.zip' }
   s.documentation_url     = 'https://docs.flutter.dev'
   s.platform              = :ios, '12.0'
   s.vendored_frameworks   = 'Flutter.xcframework'

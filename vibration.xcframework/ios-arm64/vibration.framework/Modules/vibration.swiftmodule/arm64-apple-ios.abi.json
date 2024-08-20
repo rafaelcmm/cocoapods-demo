@@ -265,7 +265,6 @@
             "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift(im)handleMethodCall:result:",
             "mangledName": "$s9vibration20VibrationPluginSwiftC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "vibration",
-            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -304,7 +303,6 @@
         "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift",
         "mangledName": "$s9vibration20VibrationPluginSwiftC",
         "moduleName": "vibration",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"

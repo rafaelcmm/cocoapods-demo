@@ -1,0 +1,52 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rafaelmonteirofsl/Workspace/UserWorkFlowMobile/apps/loads_module/build/ios/framework/Profile/iphoneos/Profile-iphoneos/vibration/vibration.framework/vibration'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x64D9F, size: 0x8, addend: 0x0, symName: _vibrationVersionString, symObjAddr: 0x0, symBinAddr: 0x7E60, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x64DD4, size: 0x8, addend: 0x0, symName: _vibrationVersionNumber, symObjAddr: 0x28, symBinAddr: 0x7E88, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x64E11, size: 0x8, addend: 0x0, symName: '+[VibrationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x64E7B, size: 0x8, addend: 0x0, symName: '+[VibrationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x4F, offset: 0x64F37, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvpZ', symObjAddr: 0xDD00, symBinAddr: 0x119F8, symSize: 0x0 }
+  - { offsetInCU: 0x110, offset: 0x64FF8, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC8register4withySo07FlutterC9Registrar_p_tFZTo', symObjAddr: 0x104, symBinAddr: 0x4110, symSize: 0x30 }
+  - { offsetInCU: 0x142, offset: 0x6502A, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC06cancelB033_3A3257C106E34F8F40D4D9BC5ACEDFA2LLyyFys5Error_pSgcfU_', symObjAddr: 0x4B4, symBinAddr: 0x44C0, symSize: 0x150 }
+  - { offsetInCU: 0x2FF, offset: 0x651E7, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0xB48, symBinAddr: 0x4B54, symSize: 0x78 }
+  - { offsetInCU: 0x347, offset: 0x6522F, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftCACycfcTo', symObjAddr: 0xC00, symBinAddr: 0x4C0C, symSize: 0x4C }
+  - { offsetInCU: 0x398, offset: 0x65280, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC12createEngineyyFZTf4d_n', symObjAddr: 0x12D8, symBinAddr: 0x52E4, symSize: 0x314 }
+  - { offsetInCU: 0x4EA, offset: 0x653D2, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC8register4withySo07FlutterC9Registrar_p_tFZTf4nd_n', symObjAddr: 0x15EC, symBinAddr: 0x55F8, symSize: 0xD8 }
+  - { offsetInCU: 0x592, offset: 0x6547A, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC11playPattern33_3A3257C106E34F8F40D4D9BC5ACEDFA2LL6myArgs7patternySDySSypG_SaySiGtFTf4nnd_n', symObjAddr: 0x17C8, symBinAddr: 0x57D4, symSize: 0x6C4 }
+  - { offsetInCU: 0xA7E, offset: 0x65966, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypL7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x1ED4, symBinAddr: 0x5EE0, symSize: 0x830 }
+  - { offsetInCU: 0xC98, offset: 0x65B80, size: 0x8, addend: 0x0, symName: '_$sSo27CHHapticEngineStoppedReasonVIegy_ABIeyBy_TR', symObjAddr: 0x220, symBinAddr: 0x422C, symSize: 0x3C }
+  - { offsetInCU: 0xCB0, offset: 0x65B98, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x488, symBinAddr: 0x4494, symSize: 0x2C }
+  - { offsetInCU: 0xCC8, offset: 0x65BB0, size: 0x8, addend: 0x0, symName: '_$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR', symObjAddr: 0x604, symBinAddr: 0x4610, symSize: 0x50 }
+  - { offsetInCU: 0xD35, offset: 0x65C1D, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftCfETo', symObjAddr: 0xC7C, symBinAddr: 0x4C88, symSize: 0x4 }
+  - { offsetInCU: 0xD6B, offset: 0x65C53, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo13CHHapticEventC_Tgm5', symObjAddr: 0xDC0, symBinAddr: 0x4DCC, symSize: 0x64 }
+  - { offsetInCU: 0xD98, offset: 0x65C80, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo22CHHapticEventParameterC_Tgm5', symObjAddr: 0xE24, symBinAddr: 0x4E30, symSize: 0x64 }
+  - { offsetInCU: 0xECD, offset: 0x65DB5, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo13CHHapticEventC_Tgm5', symObjAddr: 0x105C, symBinAddr: 0x5068, symSize: 0x80 }
+  - { offsetInCU: 0xFBF, offset: 0x65EA7, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x16C4, symBinAddr: 0x56D0, symSize: 0x40 }
+  - { offsetInCU: 0xFD3, offset: 0x65EBB, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1704, symBinAddr: 0x5710, symSize: 0x40 }
+  - { offsetInCU: 0xFE7, offset: 0x65ECF, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1744, symBinAddr: 0x5750, symSize: 0x10 }
+  - { offsetInCU: 0xFFB, offset: 0x65EE3, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1754, symBinAddr: 0x5760, symSize: 0x8 }
+  - { offsetInCU: 0x100F, offset: 0x65EF7, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x175C, symBinAddr: 0x5768, symSize: 0x10 }
+  - { offsetInCU: 0x1023, offset: 0x65F0B, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x176C, symBinAddr: 0x5778, symSize: 0x3C }
+  - { offsetInCU: 0x1037, offset: 0x65F1F, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x17A8, symBinAddr: 0x57B4, symSize: 0x20 }
+  - { offsetInCU: 0x1197, offset: 0x6607F, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftCMa', symObjAddr: 0x1E8C, symBinAddr: 0x5E98, symSize: 0x20 }
+  - { offsetInCU: 0x11B6, offset: 0x6609E, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x2704, symBinAddr: 0x6710, symSize: 0x48 }
+  - { offsetInCU: 0x11CA, offset: 0x660B2, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x274C, symBinAddr: 0x6758, symSize: 0x24 }
+  - { offsetInCU: 0x1705, offset: 0x665ED, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvgZ', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x4C }
+  - { offsetInCU: 0x172C, offset: 0x66614, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvsZ', symObjAddr: 0x4C, symBinAddr: 0x4058, symSize: 0x4C }
+  - { offsetInCU: 0x175D, offset: 0x66645, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvMZ', symObjAddr: 0x98, symBinAddr: 0x40A4, symSize: 0x40 }
+  - { offsetInCU: 0x177E, offset: 0x66666, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvMZ.resume.0', symObjAddr: 0xD8, symBinAddr: 0x40E4, symSize: 0x4 }
+  - { offsetInCU: 0x179F, offset: 0x66687, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC8register4withySo07FlutterC9Registrar_p_tFZ', symObjAddr: 0xDC, symBinAddr: 0x40E8, symSize: 0x4 }
+  - { offsetInCU: 0x17B3, offset: 0x6669B, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftCACycfC', symObjAddr: 0xE0, symBinAddr: 0x40EC, symSize: 0x20 }
+  - { offsetInCU: 0x17C7, offset: 0x666AF, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC12createEngineyyFZ', symObjAddr: 0x100, symBinAddr: 0x410C, symSize: 0x4 }
+  - { offsetInCU: 0x17DB, offset: 0x666C3, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC12createEngineyyFZySo08CHHapticF13StoppedReasonVcfU_', symObjAddr: 0x134, symBinAddr: 0x4140, symSize: 0xEC }
+  - { offsetInCU: 0x1899, offset: 0x66781, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC12createEngineyyFZyycfU0_', symObjAddr: 0x25C, symBinAddr: 0x4268, symSize: 0x22C }
+  - { offsetInCU: 0x1A7C, offset: 0x66964, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x654, symBinAddr: 0x4660, symSize: 0x4F4 }
+  - { offsetInCU: 0x1C34, offset: 0x66B1C, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftCACycfc', symObjAddr: 0xBC0, symBinAddr: 0x4BCC, symSize: 0x40 }
+  - { offsetInCU: 0x1C65, offset: 0x66B4D, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftCfD', symObjAddr: 0xC4C, symBinAddr: 0x4C58, symSize: 0x30 }
+  - { offsetInCU: 0x1C88, offset: 0x66B70, size: 0x8, addend: 0x0, symName: '_$sSo15CHHapticPatternC6events10parametersABSaySo0A5EventCG_SaySo0A16DynamicParameterCGtKcfcTO', symObjAddr: 0xC80, symBinAddr: 0x4C8C, symSize: 0x140 }
+  - { offsetInCU: 0x1CAF, offset: 0x66B97, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0xE88, symBinAddr: 0x4E94, symSize: 0x64 }
+  - { offsetInCU: 0x1D3A, offset: 0x66C22, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo13CHHapticEventC_Tg5', symObjAddr: 0xEEC, symBinAddr: 0x4EF8, symSize: 0x170 }
+  - { offsetInCU: 0x1EA6, offset: 0x66D8E, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSo13CHHapticEventC_Tg5', symObjAddr: 0x10DC, symBinAddr: 0x50E8, symSize: 0x11C }
+  - { offsetInCU: 0x1F8A, offset: 0x66E72, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x11F8, symBinAddr: 0x5204, symSize: 0xE0 }
+...
