@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'TransfloLoadsModule'
-  spec.version       = '1.1.0'
+  spec.version       = '1.2.0'
   spec.summary       = 'Summary'
   spec.description   = 'Description'
   spec.homepage      = 'https://greensyntax.app'
@@ -53,5 +53,4 @@ Pod::Spec.new do |spec|
     "camera_avfoundation.xcframework",
     "share_plus.xcframework"
   ]
-  spec.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
