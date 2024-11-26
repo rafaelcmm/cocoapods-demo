@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = [
     "Frameworks/*.xcframework",
   ]
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
