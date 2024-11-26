@@ -11,13 +11,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '14.0'
   spec.dependency 'GoogleMaps', '8.4.0.0'
   spec.ios.vendored_frameworks = [
-    "App.xcframework",
-    "device_info_plus.xcframework",
-    "Flutter.xcframework",
-    "FlutterPluginRegistrant.xcframework",
-    "google_maps_flutter_ios.xcframework",
-    "GoogleMapsUtils.xcframework",
-    "transflo_authentication_plugin.xcframework",
-    "vibration.xcframework",
+    "Frameworks/*.xcframework",
   ]
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
