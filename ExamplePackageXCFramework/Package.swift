@@ -45,7 +45,7 @@ let package = Package(
                 "google_maps_flutter_ios",
                 "image_picker_ios",
                 "path_provider_foundation",
-                "pendo_sdk",
+                "Pendo",
                 "pointer_interceptor_ios",
                 "share_plus",
                 "transflo_messages_plugin",
@@ -55,7 +55,8 @@ let package = Package(
                 "transflo_sdk_configuration_plugin",
                 "url_launcher_ios",
                 "vibration",
-                "webview_flutter_wkwebview"
+                "webview_flutter_wkwebview",
+                "PTCScan"
             ]
         ),
         .binaryTarget(name: "AWSCore", path: "./Frameworks/AWSCore.xcframework"),
@@ -87,7 +88,7 @@ let package = Package(
         .binaryTarget(name: "google_maps_flutter_ios", path: "./Frameworks/google_maps_flutter_ios.xcframework"),
         .binaryTarget(name: "image_picker_ios", path: "./Frameworks/image_picker_ios.xcframework"),
         .binaryTarget(name: "path_provider_foundation", path: "./Frameworks/path_provider_foundation.xcframework"),
-        .binaryTarget(name: "pendo_sdk", path: "./Frameworks/pendo_sdk.xcframework"),
+        .binaryTarget(name: "Pendo", path: "./Frameworks/pendo_sdk.xcframework"),
         .binaryTarget(name: "pointer_interceptor_ios", path: "./Frameworks/pointer_interceptor_ios.xcframework"),
         .binaryTarget(name: "share_plus", path: "./Frameworks/share_plus.xcframework"),
         .binaryTarget(name: "transflo_messages_plugin", path: "./Frameworks/transflo_messages_plugin.xcframework"),
@@ -98,5 +99,6 @@ let package = Package(
         .binaryTarget(name: "url_launcher_ios", path: "./Frameworks/url_launcher_ios.xcframework"),
         .binaryTarget(name: "vibration", path: "./Frameworks/vibration.xcframework"),
         .binaryTarget(name: "webview_flutter_wkwebview", path: "./Frameworks/webview_flutter_wkwebview.xcframework"),
+        .binaryTarget(name: "PTCScan", path: "./Frameworks/PTCScan.xcframework"),
     ]
 )
